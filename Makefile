@@ -3,7 +3,7 @@ NAME = inception
 COMPOSE = docker compose
 COMPOSE_FILE = srcs/docker-compose.yml
 
-DATA_PATH = /home/pkostura/data
+DATA_PATH = ~/data
 DB_PATH = $(DATA_PATH)/mariadb
 WP_PATH = $(DATA_PATH)/wordpress
 
